@@ -1,7 +1,7 @@
 ---
 title: "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka"
 
-author: "Y.M.A.P. Rajapaksha \\ Department of Statistics, Faculty of Applied Sciences \\ University of Sri Jayewardenepura, Sri Lanka"
+author: "Y.M. Amali P. Rajapaksha \\ Department of Statistics, Faculty of Applied Sciences \\ University of Sri Jayewardenepura, Sri Lanka"
     
 format:
   pdf:
@@ -150,7 +150,7 @@ Among these dashboards, tree maps and heatmaps were used in only one dashboard, 
 
 # 3 Data
 
-All local data up to December 2025 used in this dashboard were obtained from the weekly epidemiological reports published by the Epidemiology Unit, Ministry of Health, Sri Lanka, through the `denguedatahub` R package [@talagala2026denguedatahub]. Data for 2026 were obtained from the weekly epidemiological reports published by the Epidemiology Unit, Ministry of Health, Sri Lanka, and the Weekly Dengue Updates published by the National Dengue Control Unit, Ministry of Health, Sri Lanka. These data were extracted through web scraping using the `convert_slwer_to_tidy()` function available in the `denguedatahub` package [@talagala2026denguedatahub]. The global data used in this dashboard were obtained from the World Health Organization's [Global Dengue Surveillance Dashboard](https://worldhealthorg.shinyapps.io/dengue_global/). The climate data used in this study were downloaded from the [NASA POWER Data Access Viewer](https://power.larc.nasa.gov/data-access-viewer/), provided by the National Aeronautics and Space Administration (NASA).
+All local data up to December 2025 used in this dashboard were obtained from the weekly epidemiological reports published by the Epidemiology Unit, Ministry of Health, Sri Lanka, through the `denguedatahub` R package [@talagala2026denguedatahub]. Data for 2026 were obtained from the weekly epidemiological reports [@epidemiology_unit_2026] published by the Ministry of Health, Sri Lanka, and the Weekly Dengue Updates [@national_dengue_control_unit_2026] published by the Ministry of Health, Sri Lanka . These data were extracted through web scraping using the `convert_slwer_to_tidy()` function available in the `denguedatahub` package [@talagala2026denguedatahub]. The global data used in this dashboard were obtained from the World Health Organization's [Global Dengue Surveillance Dashboard](https://worldhealthorg.shinyapps.io/dengue_global/) [@who2026globaldenguedashboard]. The climate data used in this study were downloaded from the [NASA POWER Data Access Viewer](https://power.larc.nasa.gov/data-access-viewer/) [@nasa_power_2026].
 
 # 4 Methodology
 
