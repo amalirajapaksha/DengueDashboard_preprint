@@ -1,7 +1,7 @@
 ---
 title: "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka"
 
-author: "Y.M. Amali P. Rajapaksha \\ Department of Statistics, Faculty of Applied Sciences \\ University of Sri Jayewardenepura, Sri Lanka"
+author: "Y.M. Amali P. Rajapaksha<br>Department of Statistics, Faculty of Applied Sciences<br>Unversity of Sri Jayewardenepura, Sri Lanka"
     
 format:
   pdf:
@@ -43,11 +43,11 @@ The remaining sections of this paper are organized as follows. Section 2 present
 
 # 2 Literature Review
 
-In this literature review, six dengue-related dashboards were considered. These dashboards were developed for different geographical areas. The review focuses on the information presented, visualization techniques, and key features of each dashboard. A summary of the studied dashboards is presented in Table \ref{tab:dashboard-summary}. 
+In this literature review, six dengue-related dashboards were considered. These dashboards were developed for different geographical areas. The review focuses on the information presented, visualization techniques, and key features of each dashboard. A summary of the studied dashboards is presented in @tbl-dashboard-summary. 
 
-\begin{longtable}{|p{0.7cm}|p{3.3cm}|p{2.8cm}|p{4.7cm}|p{2.8cm}|}
+\begin{longtable}{|c|p{3.3cm}|p{2.8cm}|p{4.7cm}|p{2.8cm}|}
 \caption{Summary of dengue surveillance dashboards considered in the literature review}
-\label{tab:dashboard-summary}\\
+\label{tbl-dashboard-summary}
 \hline
 \textbf{No.} & \textbf{Dashboard Name} & \textbf{Geographical Area Covered} & \textbf{Data Included in the Dashboard} & \textbf{Citation} \\
 \hline
@@ -94,11 +94,11 @@ In this literature review, six dengue-related dashboards were considered. These 
 
 \end{longtable}
 
-Table \ref{tab:dashboard-features} compares the design characteristics and visualization techniques used in the six reviewed dengue dashboards. The dashboard numbers correspond to those listed in Table \ref{tab:dashboard-summary}. The comparison focuses on the number of tabs, background theme, suitability for a single-screen layout, data availability, and the visualization techniques used in each dashboard.
+@tbl-dashboard-features numbers correspond to those listed in @tbl-dashboard-summary. The comparison focuses on the number of tabs, background theme, suitability for a single-screen layout, data availability, and the visualization techniques used in each dashboard.
 
 \begin{longtable}{|c|c|p{2cm}|p{2cm}|p{2.5cm}|p{4.7cm}|}
 \caption{Comparison of visualization techniques and key features of the reviewed dengue dashboards}
-\label{tab:dashboard-features}\\
+\label{tbl-dashboard-features}
 \hline
 \textbf{No.} &
 \textbf{No. of Tabs} &
@@ -155,11 +155,11 @@ All local data up to December 2025 used in this dashboard were obtained from the
 
 # 4 Methodology
 
-Here, several visualization techniques have been used for different purposes. To explore new visualization techniques that can be applied for disease surveillance and epidemiological analysis, the Sri Lanka COVID-19 Dashboard [@talagala2022interactive] was referred to. To get an overall idea of the methodologies, see Table \ref{tab:methods}.
+Here, several visualization techniques have been used for different purposes. To explore new visualization techniques that can be applied for disease surveillance and epidemiological analysis, the Sri Lanka COVID-19 Dashboard [@talagala2022interactive] was referred to. To get an overall idea of the methodologies, see @tbl-methods.
 
 \begin{longtable}{|p{9cm}|p{6cm}|}
 \caption{Summary of methodologies used in the dashboard}
-\label{tab:methods}\\
+\label{tbl-methods}
 \hline
 \textbf{Information Presented} & \textbf{Visualization Technique(s)} \\
 \hline
@@ -208,11 +208,11 @@ In this dashboard, multiple visualization techniques have sometimes been used fo
 
 # 5 Results
 
-The dashboard is organized into 8 navigation tabs, including Overview, Last Week Dengue Situation Analysis, District-wise Time Series Trends, District-wise Seasonal Plots, Dengue Patients Distribution, Climate-Dengue Relationship Analysis, Global Comparison, and About. Each tab contains interactive visualizations and analytical outputs. Table \ref{tab:tabs} provides a description of each tab and summarizes its key content.
+The dashboard is organized into 8 navigation tabs, including Overview, Last Week Dengue Situation Analysis, District-wise Time Series Trends, District-wise Seasonal Plots, Dengue Patients Distribution, Climate-Dengue Relationship Analysis, Global Comparison, and About. Each tab contains interactive visualizations and analytical outputs. @tbl-tabs provides a description of each tab and summarizes its key content.
 
 \begin{longtable}{|p{2cm}|p{13cm}|}
 \caption{Description of Dashboard Tabs}
-\label{tab:tabs}\\
+\label{tbl-tabs}
 \hline
 \textbf{Tab No.} & \textbf{Description} \\
 \hline
