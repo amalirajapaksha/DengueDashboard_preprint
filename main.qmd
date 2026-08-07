@@ -22,6 +22,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{longtable}
   - \usepackage{array}
+  - \usepackage{hyperref}
 ---
 
 ## **Abstract**
@@ -232,7 +233,7 @@ The dashboard is organized into 8 navigation tabs, including Overview, Last Week
 \endlastfoot
 Tab 1 & This provides the latest information about the dengue epidemic in Sri Lanka. It gives a brief overview of the current dengue situation in Sri Lanka. \\
 \hline
-Tab 2 & This compares the dengue situation in the 26th week of this year with the same week of the previous year. This is the latest data we have. \\
+Tab 2 & This compares the dengue situation in the 29th week of this year with the same week of the previous year. This is the latest data we have. \\
 \hline
 Tab 3 & There are two sub-tabs. The first contains faceted time series plots of weekly dengue cases from 2006 to 2025 for each district separately. The second tab allows users to explore small changes in dengue cases for each district individually using dygraphs. \\
 \hline
